@@ -1,0 +1,23 @@
+//排序，测试if语句
+void main(){
+    int t;
+    int a = 3;
+    int b = 1;
+    int d = 5;
+    if(a>b){
+       t=a;
+       a=b;
+       b=t;
+    }
+   if(a>d){
+      t=a;
+      a=d;
+      d=t;
+    }
+   if(b>d){
+      t=b;
+      b=d;
+      d=t;
+    }
+
+}

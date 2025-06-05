@@ -1,0 +1,10 @@
+// 测试if语句中含有多个条件表达式
+void main()
+{
+   int m=0;
+   int k=0;
+   int result;
+   if(m < k || m != 0 &&k == 1){
+        result = 666;
+   }
+}

@@ -1,0 +1,17 @@
+//for嵌套
+void main(){
+    int N = 5;
+    int count=0;
+    int nprime=0;
+    int i;
+    int j;
+    for(i=2;i<=N;i=i+1) {
+       nprime = 0;
+       for(j=2;j<i;j=j+1) {
+           if(i==0&&j==0) {
+                nprime = nprime + 1;
+           }
+       }
+    }
+}
+

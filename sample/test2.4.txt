@@ -1,0 +1,62 @@
+// break，continue跳转(1:break,2:continue,3:exit):
+
+main()
+{
+    int a;
+    while (1)
+    {
+        a = read();
+        if (a == 1 || a == 2)
+        {
+            do
+            {
+                if (a == 1)
+                    break;
+                if (a == 2)
+                {
+                    a = a - 1;
+                    continue;
+                }
+            } while (1);
+        }
+        else
+            break;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+//for循环嵌套if语句
+void main(){
+  int i;
+  int N =5;
+  int sum = 0;
+  for(i=1;i<=N;i=i+1){
+     if(i/2 == 1){
+	    sum = sum+i;
+    }
+  }
+}
